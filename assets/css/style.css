@@ -231,6 +231,10 @@ input[type=submit] {
     width:100%
   }
 
+  #masthead {
+    position:static;
+  }
+
   .container nav {
     float:none;
     text-align:center;
@@ -244,4 +248,11 @@ input[type=submit] {
     width: 50%;
   }
 
+}
+
+@media screen and (max-width: 980px) {
+  #masthead {
+    width:98%;
+    padding-right:20px;
+  }
 }
