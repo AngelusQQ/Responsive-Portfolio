@@ -215,3 +215,33 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px) {
+
+  .work {
+    width: 100%;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  #logo {
+    max-width:640px;
+    width:100%
+  }
+
+  .container nav {
+    float:none;
+    text-align:center;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .auth-image {
+    width: 50%;
+  }
+
+}
